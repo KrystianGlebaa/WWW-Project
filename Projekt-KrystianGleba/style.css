@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=STIX+Two+Text:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+}
+
+
+
+.icon{
+    background-color: black;
+}
+
+.navigation{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-size: 15px; 
+    padding: 0 7%;
+}
+
+.nav{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.navigation a{
+    text-decoration: none;
+    margin: 5px 25px;
+    color:white;
+}
+
+.navigation a:hover{
+    color: orange;
+    transition: .6s;
+}
+
+.header{
+    height: 40vw;
+    background-image: url(../Projekt-KrystianGleba/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center; 
+}
+
+.left{
+    color: white;
+    margin-left: 80px;
+}
+
+.left h1{
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.left h2{
+    font-weight: 400;
+    font-size: 15px;
+    margin: 30px 0;  
+    line-height: 17px;
+    letter-spacing: 1px; 
+}
+
+.left span{
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin-top: 25px;
+}
+
+.left button{
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    font-size: 17px;
+    padding: 5px 20px;
+}
+
+.left button:hover{
+    border-color: orange;
+    color: orange;
+    transition: .4s;
+}
+
+.right form{
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.right h1{
+    font-size: 17px;
+    text-align-last: center;
+    background-color: #f5f5f5;
+    color: #474747;
+    padding: 10px 0;
+}
+
+.right h1 span{
+    color: orange;
+}
+
+.right input{
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+    outline: none;
+}
+
+.right a{
+    display: block;
+    text-decoration: none;
+    text-align-last: center;
+    background-color: orange;
+    color:white;
+    padding: 15px 0;
+}
+
+.right a:hover{
+    background-color: brown
+}
+
+.right form input::placeholder{
+    color: lightgray;
+}
+
+.tabs-area{
+    background-color: #f5f5f5;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    padding: 100px 7%;
+    align-items: center;
+    
+}
+
+.tabs .tab1{
+    background-color: #333333;
+    font-size: 14px;
+    width: 90px;
+    margin: 1px 0;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    color: white;
+}
+
+.tabs .tab2{
+    background-color: #333333;
+    font-size: 14px;
+    width: 90px;
+    margin: 1px 0;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    color: white;
+}
+
+.tabs .tab3{
+    background-color: #333333;
+    font-size: 14px;
+    width: 90px;
+    margin: 1px 0;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    color: white;
+}
+
+.tab-texts p{
+    margin: 20px 0;
+    color: gray;
+    font-size: 13px;
+}
+
+.tab1:hover{
+   background-color: orange;
+   transition: .4s;
+}
+
+.tab2:hover{
+    background-color: orange;
+    transition: .4s;
+}
+
+.tab3:hover{
+    background-color: orange;
+    transition: .4s;
+}
+ 
+.feature-2{
+    width: 100%;
+    padding: 100px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature2-txt{
+    padding-left: 50px;
+}
+
+.feature2-txt h3{
+    font-size: 20px;
+}
+
+.feature2-txt span{
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: orange;
+    margin: 20px 0;
+}
+
+.feature2-txt p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+    color: grey;
+}
+
+.feature-title-1, .feature-title-2{
+    display:block;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.contact{
+    padding: 100px 7%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.contact-text h1{
+    font-size: 30px;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.contact-text h1::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background-color: orange;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact-text{
+    margin-bottom: 50px;
+}
+
+.form-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 70px;
+}
+
+.form-details .details input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+    color: black;
+    padding-left: 15px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+.form-details .details input::placeholder{
+color: black
+}
+
+.form-msg textarea{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    color: black;
+    padding-top: 50px;
+}
+
+.form-msg textarea::placeholder{
+    color: black;
+}
+
+.form-details{
+    margin-bottom: 30px;
+}
+
+.contact button{
+    background-color: orange;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
+
+.contact button:hover{
+    background-color: brown;
+}
